@@ -1,0 +1,103 @@
+body{ 
+  margin: 0;
+  display:flex;
+  height: 100%;   /*Hidden scrollbar*/
+  width: 100%;
+  overflow: hidden;
+}
+
+.main {
+  background: #00010D;
+  width: 100%;
+}
+
+
+.logo {
+  /*for display*/
+  display: flex;
+  color: white;
+  padding: 0;
+  justify-content: center;
+  align-items: center;
+  margin-top: 1.5rem;
+  /*for font style*/
+  font-family: 'Crimson Text', serif;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 20px;
+  line-height: 34px;
+  text-transform: capitalize;
+  color:#FFFFFF;
+}
+.form{
+  display: flex;           /* center */
+  justify-content: center;      
+  align-items: center;
+  margin: 2.5rem 25.2rem;
+  padding: auto; 
+}
+
+.title {
+  text-align: center;
+  text-transform: uppercase;
+  font-family: 'Crimson Text', serif;
+  font-size: 1.43rem;
+  color: white;
+  margin-top: 7rem;
+}
+input {
+  /*Style*/
+  background: rgba(98, 87, 83, 0.3);
+  border: 1px solid #590B0B;
+  border-radius: 10px;
+  font-family: 'Nunito', sans-serif;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 1.43rem;
+  padding-left: 10px;
+  /*Display */
+  text-align: justify;
+  text-transform: capitalize;
+  color: #ffffffa2;
+  left: 3rem;
+  height: 2.9rem;
+  width: 99%;
+  margin: 14px 0;
+}
+button { 
+  width: 100%;
+  height: 60px;
+  background: #8C0B0B;
+  border: none;
+  border-radius: 10px;
+  font-family: 'Martel';
+  font-style: normal;
+  color: white;
+  font-weight: 800;
+  font-size: 28px;
+  line-height: 47px;
+  text-align: center;
+  text-transform: capitalize;
+  margin-top: 1.7rem;
+  transition-duration: 0.4s;
+}
+button:hover {
+  cursor: pointer;
+  background-color: #d41212;
+}
+
+.signin {
+  color: white;
+  font-family: 'Libre Baskerville', serif;
+  text-align: center;
+  font-size: 1.5rem;
+}
+
+ a:link,a:active,a:hover,a:visited {
+  color: white;
+  text-decoration: none;
+}
+
+
+
+
