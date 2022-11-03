@@ -1,3 +1,7 @@
+:root {
+  --txt-clr: rgb(255, 255, 255);
+}
+
 body{ 
   margin: 0;
   display:flex;
@@ -11,11 +15,9 @@ body{
   width: 100%;
 }
 
-
 .logo {
   /*for display*/
   display: flex;
-  color: white;
   padding: 0;
   justify-content: center;
   align-items: center;
@@ -27,7 +29,7 @@ body{
   font-size: 20px;
   line-height: 34px;
   text-transform: capitalize;
-  color:#FFFFFF;
+  color: var(--txt-clr);
 }
 .form{
   display: flex;           /* center */
@@ -42,7 +44,7 @@ body{
   text-transform: uppercase;
   font-family: 'Crimson Text', serif;
   font-size: 1.43rem;
-  color: white;
+  color: var(--txt-clr);
   margin-top: 7rem;
 }
 input {
@@ -87,16 +89,19 @@ button:hover {
 }
 
 .signin {
-  color: white;
+  color:var(--txt-clr);
   font-family: 'Libre Baskerville', serif;
   text-align: center;
   font-size: 1.5rem;
 }
 
  a:link,a:active,a:hover,a:visited {
-  color: white;
+  color: var(--txt-clr);
   text-decoration: none;
 }
+
+
+
 
 
 

@@ -29,10 +29,10 @@
   <div class="form">
    
       <form action="" class="input">
-        <input type="text" placeholder="Name" class="name">
-        <input type="text" placeholder="Email Address" class="email">
-        <input type="text" placeholder="Password" class="pass"> 
-        <input type="text" placeholder="Confirm password" class="confirm"> <br>
+        <input type="text" placeholder="Name" class="name" required maxlength="15" min="1">
+        <input type="text" placeholder="Email Address" class="email" required maxlength="30">
+        <input type="text" placeholder="Password" class="pass" required minlength="8"> 
+        <input type="text" placeholder="Confirm password" class="confirm" required minlength="8"> <br>
         <button>Continue</button>
       </form>
   </div>
